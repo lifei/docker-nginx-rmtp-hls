@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+umask 022
+exec /usr/local/nginx/sbin/nginx
